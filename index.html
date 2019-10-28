@@ -1,54 +1,133 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
-		<link href="style.css" type="text/css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="header">
-      <div class="container">
-        <h1>Muhammad Mudrik</h1>
-        <p>Computer Science Student</p>
-	<p>at Universitas Indonesia</p>
-	<br>
-			<a class="btn" href="#">Learn More</a>
-      </div>
-    </div>
 
-    <div class="nav">
-      <div class="container">
-        <ul>
-          <li>About</li>
-          <li>Project</li>
-          <li>Contact</li>
-        </ul>
-      </div>
-    </div>
+    <head>
+        <title>A Wanderer</title>
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+        <link href="./bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Biryani:700|Poppins:400,600,700&display=swap" rel="stylesheet">   
+        <link href="profilestyle.css" type="text/css" rel="stylesheet">
+    </head>
 
-    <div class="main">
-      <div class="container">
-        <img src="./mudrik.jpg" alt="A Person" height="200" width="200">
-	<p>_______________________</p>      
-        <h2>A man named Mudrik</h2>
-        <p>A humble person that likes to spread happiness.</p>
-        <p>Interested in technology and business process since young.</p>
-        <p>Currently positioned as a second year student in Faculty of Computer Science, Universitas Indonesia.</p>
-	<p>_______________________</p>
-      </div>
-    </div>
+    <body>
+        <div class="nav-kanan">
+            <div class="sidenav">
+                <a></a>
+                <a href="#begin-sec">Begin</a>
+                <a href="#profile-sec">Profile</a>
+                <a href="#edu-sec">Edu</a>
+                <a href="#skills-sec">Skills</a>
+                <a href="#contact-sec">Contact</a>
+                <a></a>
+            </div>          
+        </div>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h2>Stay Connected</h2>
-        <p>To receive the newest info of me</p>
-        <a class="btn" href="#">Contact Me</a>
-      </div>
-    </div>
+        <div class="konten">
+            <!-- Begin part -->
+            <div class="container-fluid cream" id="begin-sec">
+                <div class="hutan"></div>
+                <h1 id="title">The Story of<br>Muhammad Mudrik</h1>
+            </div>
+            
+            <!-- Profile -->
+            <div class="grey" id="profile-sec">
+                <div class="container-fluid">
+                    <!-- SISI KIRI -->
+                    <div class="row ukur align-items-center justify-content-center">
+                        <div class="col-sm-4 prof align-content-center max-prof">
+                            <h1>Hi,<br/>I'm <span class="bold">Mudrik</span></h1>
+                            <h4>I'm a <span class="blue">C</span><span class="red">S</span> Students at <span class="yellow">Universitas Indonesia</span> <br> 
+                                I'm a part of Quanta <br>
+                                I'm an IT Enthusiast <br>
+                                I'm Interested in Business <br> 
+                                I'm an <span class="red">Taekwondo</span> Athlete <br>   
+                            </h4>
+                        </div>
 
-    <div class="footer">
-      <div class="container">
-        <p>&copy; ruka</p>
-      </div>
-    </div>
-  </body>
+                        <!-- SISI KANAN -->
+                        <div class="col-sm-4 prof align-content-center max-pic">
+                            <img class="img-fluid"src="./niupic-jadi.png" alt="Mudrik">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education dan Experience -->
+            <div class="cream" id="edu-sec">
+                <div class="container-fluid">
+                    <div class="row ukur align-content-center justify-content-center ">
+                        <!-- Education -->
+                        <div class="col-sm-4">
+                            <div class="garis rata-kanan">
+                                <h1 class="bold">Education</h1>
+                                <h4>
+                                    Universitas Indonesia<br>2018-2012<br><br>
+                                    65 Senior Highschool<br>2015-2018<br>
+                                </h4>
+                            </div>
+                            <div class="bola"></div>
+                        </div>
+
+                        <!-- Experience -->
+                        <div class="col-sm-4 nopad">
+                            <h1 class="bold">Experience</h1>
+                            <h4>
+                                Head of KMF Buerau at FUKI<br>Feb 2019 - Dec 2019<br><br>
+                                Staff of Business IT Case at COMPFEST<br>Mar 2019 - Sep 2019<br> <br>
+                                Staff of HPK at PMB 2019 Fasilkom UI<br>Jun 2019 - Nov 2019<br>
+                            </h4>
+                        </div>
+                        <div class="empty"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="grey" id="skills-sec">
+                <div class="container-fluid">
+                    <div class="row ukur align-content-center justify-content-center">
+                        <!-- Curly Bracket -->
+                        <div class="col-sm-4 batas justify-content-center">
+                            <div>
+                                <h2>{}</h2>
+                            </div>
+                        </div>
+                        
+                        <!-- Skill list -->
+                        <div class="col-sm-4 batas">
+                            <h1 class="bold">Skills</h1>
+                            <h4>
+                                Java <br>
+                                Python <br>
+                                Adobe Photoshop <br>
+                                Public Speaking <br>
+                                Teamwork <br>
+                                Hardworker
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact me -->
+            <div class="cream" id="contact-sec">
+                <div class="container-fluid">
+                    <div class="col-sm aja">
+                        <h1 class="bold">Contact me</h1>
+                        <div>
+                            <a href="https://github.com/rukamudrik"><img src="./icons8-github-100.png"></a>
+                            <a href="mailto:rokamudrik@gmail.com"><img src="./icons8-gmail-100.png"></a>
+                            <a href="https://www.instagram.com/mudriksyekhbu/"><img src="./icons8-instagram-100.png"></a>
+                            <a href="https://www.linkedin.com/in/muhammad-mudrik/"><img src="./icons8-linkedin-100.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
 </html>
